@@ -18,7 +18,12 @@ sent.addEventListener ("click",
         let emailTrovata = false;
         console.log(input);
 
-        
+        if(input === email){
+            console.log("Benvenuto")
+        }
+        else{
+            console.log("Non sei autorizzato")
+        }
     }
 
     

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -12,10 +13,18 @@
     <div class="flex-container">
         <div class="container">
             <form action="emailform" action="#">
-                
+                <div class="form-email">
+                    <h2 id="inserimento">Inserisci la tua email:</h2>
+                </div>
+                <div class="utility">
+                    <input type="email" id="emailinput" placeholder="example@hmail.com">
+                    <button class="email-sent">Invia</button>
+                </div>
             </form>
         </div>
     </div>
+
+    <h2 class="email-text"></h2>
 
     <script type="text/javascript" src="js/main.js"></script>
 </body>
